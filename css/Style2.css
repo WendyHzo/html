@@ -1,0 +1,75 @@
+#footer{
+    background-color: rgb(255, 217, 0);
+}
+
+@media(max-width:575px){
+    #header{
+        background-color: rgb(255, 193, 101);
+        text-align: center;
+    }
+    #caja2{
+        background-color: rgb(65, 225, 217);
+        text-align: center;
+        font-size: 100px;
+        
+    }
+    #caja3, #caja1{
+        background-color: red;
+    }
+    #caja1{
+        text-align: left;
+        font-size: 100px;
+    }
+    #caja3{
+        text-align: right;
+        font-size: 100px;
+    }
+    #footer{
+        text-align: center;
+    }
+}
+@media(min-width:576px) and (max-width:768px){
+    #header{
+        background-color: rgb(65, 225, 217);
+    }
+    #caja3{
+        background-color: chartreuse;
+        text-align: center;
+        font-size: 100px;
+    }
+    #caja2, #caja1{
+        background-color: red;
+        
+    }
+    #caja1{
+        text-align: left;
+        font-size: 100px;
+    }
+    #caja2{
+        text-align: right;
+        font-size: 100px;
+    }
+    #footer{
+        text-align: center;
+    }
+}
+@media(min-width:768px){
+    #header{
+        background-color: chartreuse;
+        height: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    #caja1, #caja2, #caja3{
+        background-color: red;
+         height: 600px;  
+         text-align: center;
+        font-size: 100px;
+        
+    }
+    
+}
+#rojos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

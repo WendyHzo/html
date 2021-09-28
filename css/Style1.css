@@ -1,0 +1,29 @@
+#verde1{
+    background-color: greenyellow;
+    height: 80px;
+    
+}
+#verde2{
+    background-color: greenyellow;
+    height: 40px;
+}
+#rojo{
+    background-color: red;
+}
+#violet{
+    background-color: violet;
+    height: 90px;
+    
+}
+#coffee{
+    background-color: rgb(247, 148, 78);
+    height: 90px;
+   
+}
+#blue{
+    background-color: dodgerblue;
+    height: 100px;
+}
+.row{
+    margin-bottom: 4px;
+}
